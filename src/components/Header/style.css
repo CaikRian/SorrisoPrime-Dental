@@ -1,0 +1,101 @@
+header{
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 12vh;
+    background-color: #4DC3DB;
+    box-shadow: 0px 0px 20px 5px #4DC3DB;
+}
+header p{
+    padding: 0;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 2vh;
+}
+header ul{
+    display: flex;
+    list-style-type: none;
+}
+header ul li{
+    width: 100px;
+    
+}
+header a{
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+header a:hover{
+    background-color: #4D96DB;
+}
+#menu-responsivo{
+    display: none;
+    position: relative;
+}
+#conteudo-menu-responsivo{
+    display: none;
+}
+@media screen and (max-width: 800px){
+    #menu-normal{
+        display: none;
+    }
+    #menu-responsivo{
+        display: flex;
+        position: absolute;
+        right: 0;
+        width: 40px;
+        height: 50%;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-right: 10%;
+        cursor: pointer;
+    }
+    #menu-responsivo div{
+        position:absolute;
+        width: 40px;
+        height: 1%;
+        background-color: white;
+        transition: 0.5s;
+    }
+    #bar-1{
+        top:40%
+    }
+    #bar-2{
+        top:60%
+    }
+    #bar-3{
+        top:80%
+    }
+    #conteudo-menu-responsivo{
+        display: flex;
+        opacity: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        position:absolute;
+        margin-top: 12vh;
+        top: 0;
+        width: 100%;
+        height: 88vh;
+        background-color: white;
+        
+    }
+    #conteudo-menu-responsivo a{
+        color: black;
+        font-size: 20px;
+    }
+    #conteudo-menu-responsivo ul li{
+        padding: 0;
+        margin: 0;
+    }
+    header p{
+        font-size: 20px;
+    }
+    
+}
