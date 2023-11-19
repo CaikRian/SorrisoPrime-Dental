@@ -36,6 +36,7 @@ p{
 }
 h1{
     font-size: 80px;
+    padding-bottom: 5%;
 }
 h2{
     display: flex;
@@ -64,7 +65,7 @@ li{
     justify-content: center;
     align-items: center;
     height: 85vh;
-    background-color: #4dc3db77;
+    background-color: #4dc3db26;
     padding: 0;
     
 }
@@ -111,7 +112,7 @@ li{
     justify-content: center;
     position: relative;
     border: solid 5px white;
-    margin: 5%;
+    margin: 10% 0 10% 0;
     padding: 3%;
     font-size: 20px;
     min-width: 220px;
