@@ -20,7 +20,7 @@ header ul{
     list-style-type: none;
 }
 header ul li{
-    width: 100px;
+    min-width: 100px;
     
 }
 header a{
@@ -87,8 +87,10 @@ header a:hover{
         
     }
     #conteudo-menu-responsivo a{
+        display: flex;
         color: black;
         font-size: 20px;
+        white-space: nowrap;
     }
     #conteudo-menu-responsivo ul li{
         padding: 0;
