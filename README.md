@@ -23,7 +23,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 1. Clone o repositório para o seu ambiente local:
 
    ```bash
-   git clone https://github.com/seu-usuario/sorrisoprime-dental.git
+   git clone https://github.com/CaikRian/SorrisoPrime-dental.git
 
 2. Navegue até o diretório do projeto:
     ```bash
@@ -43,7 +43,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - Contribuições são bem-vindas! Sinta-se à vontade para reportar problemas, sugerir melhorias ou enviar pull requests.
 
 ## Autor
-- Este projeto foi desenvolvido por Caik Rian. Para mais informações, entre em contato em [caik.job1707@gmail.com].
+- Este projeto foi desenvolvido por [Caik Rian]. Para mais informações, entre em contato em [caik.job1707@gmail.com].
 
 ## Licença
 - Este projeto é licenciado sob a Licença MIT.
